@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\CommanderGQL.csproj": {}
+    "C:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\CommanderGQL.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\CommanderGQL.csproj": {
+    "C:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\CommanderGQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\CommanderGQL.csproj",
+        "projectUniqueName": "C:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\CommanderGQL.csproj",
         "projectName": "CommanderGQL",
-        "projectPath": "c:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\CommanderGQL.csproj",
+        "projectPath": "C:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\CommanderGQL.csproj",
         "packagesPath": "C:\\Users\\ga_bo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\obj\\",
+        "outputPath": "C:\\Users\\ga_bo\\source\\repos\\CommanderGQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ga_bo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,30 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "GraphQL.Server.Ui.Voyager": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[12.6.0, )"
+            },
+            "HotChocolate.Data.Entityframework": {
+              "target": "Package",
+              "version": "[12.6.0, )"
+            },
+            "Microsoft.EntityframeworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityframeworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
